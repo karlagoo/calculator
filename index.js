@@ -1,5 +1,4 @@
-let button = document.getElementById("number_button")
-
-function printNum(){
-    console.log(button.value)
+function printNum(element){
+    let numBtn = element.innerText;
+    console.log(numBtn)
 }
