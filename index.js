@@ -6,5 +6,6 @@ function printNum(element) {
 }
 
 function clearBtn(){
-    document.getElementById('result').value = "";
+    //console.log("button clicked")
+    document.getElementById('result').value = '';
 }
