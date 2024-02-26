@@ -1,8 +1,9 @@
 function printNum(element) {
-    var btnValue = element.innerText;
-    document.getElementById('result').value = btnValue;
+    var val = element.innerText;
+    document.getElementById('result').value += val;
 
-    console.log(btnValue)
+    //console.log(btnValue)
+    return val
 }
 
 function clearBtn(){

@@ -50,4 +50,12 @@ button {
 
 .screen {
     background-color:rgb(171, 219, 231);
+    justify-content: left;
+    color: black;
+    font-size: larger;
+    width: 30%;
+    height: 2rem;
+    padding: 10px;
+    padding-left: 40%;
+    margin: 20px 10px auto;
 }
