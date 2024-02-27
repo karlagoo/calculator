@@ -6,6 +6,13 @@ function printNum(element) {
     return val
 }
 
+function solve(){
+    let x = document.getElementById('result').value
+    let y = eval(x);
+    document.getElementById('result').value = y
+    return y
+}
+
 function clearBtn(){
     //console.log("button clicked")
     document.getElementById('result').value = '';
